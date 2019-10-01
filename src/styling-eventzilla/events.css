@@ -1,13 +1,9 @@
-.backgroundEvents {
-  width: 100vw;
-  height: 100vw;
-}
 .cardGrid {
   display: grid;
-  grid-template-columns: 1fr auto;
-  grid-template-rows: 1fr 1fr 1fr;
-  grid-column-gap: 30px;
-  grid-row-gap: 30px;
-  width: 100vw;
-  height: auto;
+  grid-template-columns: 275px 275px 275px auto;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+
+  width: 90vw;
+  height: 90vw;
+  padding: 75px 150px;
 }

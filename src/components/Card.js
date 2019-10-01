@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import cardDefault from "../images/card-default.jpg";
 
 class card extends React.Component {
+  state = {};
   render() {
     return (
       <card>
