@@ -1,0 +1,18 @@
+.logo2 {
+  padding: 20px;
+  width: 50px;
+  height: 50px;
+  border: black 3px dotted;
+  border-radius: 50%;
+  margin-left: 36%;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  background-image: url(`../public/clipartwiki.com-ticket-clipart-341712.png`)
+    50% 50% / 60px 60px no-repeat;
+  position: absolute;
+}
+
+.logo:hover {
+  border-color: #ef5a00 !important;
+  transition: all 0.4s ease 0s;
+}

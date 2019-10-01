@@ -1,0 +1,7 @@
+.CardElement {
+  width: 30vw;
+  height: auto;
+  border: 5px white solid;
+  background-color: #282526;
+  color: #666;
+}
