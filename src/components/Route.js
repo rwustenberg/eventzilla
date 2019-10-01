@@ -8,6 +8,7 @@ import Signup from "./Signup";
 import Login from "./Login";
 import Events from "./Events";
 import Event from "./Event";
+import CheckoutForm from "./CheckoutForm";
 
 class Router extends React.Component {
   render() {
@@ -21,6 +22,7 @@ class Router extends React.Component {
           <Route path="/Login" component={Login} />
           <Route path="/Events" component={Events} />
           <Route path="/Event" component={Event} />
+          <Route path="/CheckoutForm" component={CheckoutForm} />
         </Switch>
       </BrowserRouter>
     );

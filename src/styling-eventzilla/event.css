@@ -1,4 +1,24 @@
 .backgroundGrid {
+  background-color: #666;
   display: grid;
-  padding: 75px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  font-family: "Varela Round", sans-serif;
+}
+.eventCard {
+  margin-left: 240px;
+}
+
+.eventInfo {
+  grid-column-start: 2;
+  grid-column-start: 1;
+}
+.eventButton {
+  width: 150px;
+  height: 50px;
+  float: right;
+}
+h1 {
+  color: white;
+  font-size: 50px;
 }

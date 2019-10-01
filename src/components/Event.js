@@ -19,15 +19,26 @@ class Event extends React.Component {
               height: "50vh"
             }}
           ></div>
-          <h1>Event Name</h1>
-          <h3>Date</h3>
-          <h3>Venue</h3>
-          <h3>Doors</h3>
-          <h3>Price</h3>
-          <h3>City</h3>
-          <h3>Organizer</h3>
-          <p>Description about event</p>
-          <button></button>
+          <div className="eventInfo">
+            <h1>Event Name</h1>
+            <h3>Date: </h3>
+            <h3>Venue: </h3>
+            <h3>Doors:</h3>
+            <h3>Price</h3>
+            <h4>City:</h4>
+            <h4>Organizer</h4>
+          </div>
+          <p>
+            <strong> Description </strong>
+            Description about event Description about event Description about
+            event Description about event Description about event Description
+            about event Description about event Description about event
+            Description about event Description about event Description about
+            event Description about event Description about event{" "}
+          </p>
+          <button className="eventButton" onClick="/CheckoutForm">
+            Purchase tickets
+          </button>
         </div>
         <Nav />
       </div>
