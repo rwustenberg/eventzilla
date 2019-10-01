@@ -1,24 +1,55 @@
 .backgroundGrid {
   background-color: #666;
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: auto;
+  grid-template-columns: 220px 1fr 1fr;
+  grid-template-rows: 1fr 1fr auto;
+  grid-column-gap: 15px;
+  grid-row-gap: 10px;
   font-family: "Varela Round", sans-serif;
-}
-.eventCard {
-  margin-left: 240px;
+  height: 100vh;
+  color: #282526;
 }
 
 .eventInfo {
+  grid-column-start: 3;
+  line-height: 1.75em;
+}
+.description {
   grid-column-start: 2;
-  grid-column-start: 1;
+  grid-row-start: 2;
 }
 .eventButton {
-  width: 150px;
-  height: 50px;
-  float: right;
+  width: 225px;
+  height: 75px;
+  font-size: 1.5em;
+  grid-column-start: 3;
+  grid-row-start: 2;
 }
-h1 {
+.title {
+  text-shadow: 2px 2px 2px #282526;
+  line-height: 1.2em;
   color: white;
   font-size: 50px;
+  margin-bottom: 15px;
+}
+.logo-box {
+  position: relative;
+  padding: 10% 0;
+}
+
+.ticket-logo {
+  border: black 1.7px dotted;
+  padding: 8.5px 7.5px;
+  border-radius: 50%;
+  color: black;
+  transform: scale(2.5) rotate(-45deg);
+  position: relative;
+  left: 8%;
+}
+
+.ticket-logo:hover {
+  border-color: #ef5a00 !important;
+  transition: all 0.4s ease 0s;
+  color: #ef5a00;
+  transition: all 0.4s ease 0s;
 }
