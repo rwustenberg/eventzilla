@@ -19,7 +19,6 @@ class Events extends React.Component {
             height: "100vh"
           }}
         >
-          <Nav />
           <div className="cardGrid">
             <Card />
             <Card />
@@ -29,6 +28,7 @@ class Events extends React.Component {
             <Card />
             <Card />
           </div>
+          <Nav />
         </div>
       </>
     );
