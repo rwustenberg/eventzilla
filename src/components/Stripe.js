@@ -22,9 +22,11 @@ class StripeForm extends React.Component {
     return (
       <>
         <CardElement />
+
         <button className="primary" onClick={this.getToken}>
-          Pay
+          Purchase Tickets
         </button>
+        <StripeProvider></StripeProvider>
       </>
     );
   }
