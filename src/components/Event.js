@@ -16,7 +16,9 @@ class Event extends React.Component {
             backgroundPosition: "center",
             backgroundRepeat: "no-repeat",
             width: "50vw",
-            height: "50vh"
+            height: "50vh",
+            minmax: "200px auto",
+            overflow: "visible"
           }}
         ></div>
 

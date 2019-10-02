@@ -1,16 +1,18 @@
 .backgroundGrid {
   background-color: #666;
   display: grid;
-  grid-template-columns: 220px 1fr 1fr;
+  grid-template-columns: 15.65% 1fr 1fr;
   grid-template-rows: 1fr 1fr auto;
   grid-column-gap: 15px;
   grid-row-gap: 10px;
   font-family: "Varela Round", sans-serif;
   height: 100vh;
   color: #282526;
+  overflow: scroll;
 }
 
 .eventInfo {
+  background-color: #666;
   grid-column-start: 3;
   line-height: 1.75em;
 }
