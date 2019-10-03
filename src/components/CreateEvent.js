@@ -103,7 +103,7 @@ class CreateEvent extends React.Component {
             backgroundPosition: "center",
             backgroundRepeat: "no-repeat",
             width: "100%",
-            height: "100%",
+            height: "120vh",
             overflow: "visible"
           }}
         >
@@ -114,7 +114,7 @@ class CreateEvent extends React.Component {
               gridTemplateColumns: "1fr auto 1fr "
             }}
           >
-            <Nav />
+            <Nav style={{ position: "absolute", zIndex: "2" }} />
 
             <form onSubmit={this.createEvent}>
               <div className="content">
