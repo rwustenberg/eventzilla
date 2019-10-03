@@ -33,6 +33,16 @@ form {
   margin: 1.25em;
   text-align: right;
 }
+.h2 {
+  text-align: center;
+  margin: 0.5em 0.25em 0.25em 0.25em;
+}
+.group2 {
+  font-size: 1em;
+  margin: 1em 0.75em;
+  text-align: left;
+  float: left;
+}
 
 .footer {
   justify-content: center;
@@ -55,7 +65,7 @@ input:hover {
 
 button {
   border: none;
-  width: 100px;
+  width: 120px;
   height: 30px;
   text-align: center;
   background-color: #282526;

@@ -11,6 +11,7 @@ import Event from "./Event";
 import Profile from "./Profile";
 import ProfileCard from "./ProfileCard";
 import PastEventCard from "./PastEventCard";
+import CreateEvent from "./CreateEvent";
 
 class Router extends React.Component {
   render() {
@@ -25,6 +26,7 @@ class Router extends React.Component {
           <Route path="/Events" component={Events} />
           <Route path="/Signup" component={Signup} />
           <Route path="/Profile" component={Profile} />
+          <Route path="/CreateEvent" component={CreateEvent} />
           <Route path="/ProfileCard" component={ProfileCard} />
           <Route path="/PastEventCard" component={PastEventCard} />
         </Switch>
