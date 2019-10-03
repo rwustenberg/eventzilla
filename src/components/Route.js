@@ -9,6 +9,8 @@ import Login from "./Login";
 import Events from "./Events";
 import Event from "./Event";
 import Profile from "./Profile";
+import ProfileCard from "./ProfileCard";
+import PastEventCard from "./PastEventCard";
 
 class Router extends React.Component {
   render() {
@@ -23,6 +25,8 @@ class Router extends React.Component {
           <Route path="/Events" component={Events} />
           <Route path="/Signup" component={Signup} />
           <Route path="/Profile" component={Profile} />
+          <Route path="/ProfileCard" component={ProfileCard} />
+          <Route path="/PastEventCard" component={PastEventCard} />
         </Switch>
       </BrowserRouter>
     );

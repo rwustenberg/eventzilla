@@ -7,7 +7,6 @@ class Event extends React.Component {
   render() {
     return (
       <div className="backgroundGrid">
-        <div></div>
         <div
           className="eventImage"
           style={{
@@ -17,7 +16,7 @@ class Event extends React.Component {
             backgroundRepeat: "no-repeat",
             width: "50vw",
             height: "50vh",
-            minmax: "200px auto",
+            minmax: "250px auto",
             overflow: "visible"
           }}
         ></div>
