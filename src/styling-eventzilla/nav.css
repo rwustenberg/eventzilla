@@ -18,6 +18,7 @@ body {
   overflow: hidden;
   font-style: italic;
   top: -13px;
+  opacity: 0.9;
 }
 
 #wrapper {
@@ -79,7 +80,12 @@ label.menu-toggle {
   position: relative;
 }
 
-#ticket:hover,
+#ticket:hover {
+  border-color: #ef5a00 !important;
+  transition: all 0.4s ease 0s;
+  color: #ef5a00;
+  transition: all 0.4s ease 0s;
+}
 .ticketTitle:hover {
   border-color: #ef5a00 !important;
   transition: all 0.4s ease 0s;

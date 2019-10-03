@@ -16,8 +16,7 @@ class Events extends React.Component {
             backgroundPosition: "center",
             backgroundRepeat: "no-repeat",
             width: "100vw",
-            height: "100vh",
-            overflow: "scroll"
+            height: "120vh"
           }}
         >
           <Nav />

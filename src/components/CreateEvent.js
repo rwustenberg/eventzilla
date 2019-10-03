@@ -114,10 +114,10 @@ class CreateEvent extends React.Component {
               gridTemplateColumns: "1fr auto 1fr "
             }}
           >
-            <Nav style={{ position: "absolute", zIndex: "2" }} />
+            <Nav />
 
             <form onSubmit={this.createEvent}>
-              <div className="content">
+              <div className="content" style={{ color: "#282526" }}>
                 <h2 className="h2">Create Eventzilla Event</h2>
                 <div className="group logo3">
                   <i className="fas fa-ticket-alt logo group logo3 ticket-form"></i>
