@@ -40,6 +40,10 @@ class Nav extends React.Component {
                 </li>
               </ul>
             </div>
+            <div className="titlebar">
+              <i className="fas fa-ticket-alt ticketTitle"></i>
+              Eventzilla
+            </div>
           </div>
         </body>
       </nav>

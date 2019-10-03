@@ -2,7 +2,7 @@
   background-color: #666;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  grid-template-rows: repeat(auto-fill, minmax(250px, 1fr));
+  grid-template-rows: repeat(auto);
   grid-column-gap: 15px;
   grid-row-gap: 10%;
   font-family: "Varela Round", sans-serif;
@@ -18,10 +18,9 @@
   line-height: 1.75em;
 }
 .description {
-  grid-column: span 2;
   grid-column-start: 2;
   grid-row-start: 2;
-  overflow: auto;
+  font-size: 1.2em;
 }
 .eventButton {
   width: 70%;

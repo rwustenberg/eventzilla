@@ -20,6 +20,7 @@ class Events extends React.Component {
             overflow: "scroll"
           }}
         >
+          <Nav />
           <div className="cardGrid">
             <Card />
             <Card />
@@ -29,7 +30,6 @@ class Events extends React.Component {
             <Card />
             <Card />
           </div>
-          <Nav />
         </div>
       </>
     );

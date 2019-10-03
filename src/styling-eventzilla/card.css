@@ -40,6 +40,7 @@
   text-align: center;
   font-weight: bold;
   display: grid;
+  text-shadow: 2px 2px 2px black;
 }
 
 .back {
@@ -83,6 +84,8 @@
   border: white 5px solid;
   margin: auto 12px 20px 12px;
   padding: 12.5px 0;
+  background-color: #666;
+  opacity: 0.75;
 }
 
 .head-wrap {
