@@ -19,12 +19,12 @@
   justify-content: center;
   padding: 25px 10px;
   overflow: visible;
-  margin: 8% auto;
+  margin: 90px auto;
   grid-template-columns: 100px auto;
   grid-template-rows: auto;
 }
 .eventGrid {
-  margin: 10% auto;
+  margin: 8% auto;
   font-family: "Varela Round", sans-serif;
   height: auto;
   background-color: #666;

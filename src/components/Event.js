@@ -19,7 +19,8 @@ class Event extends React.Component {
               width: "50vw",
               height: "50vh",
               minmax: "200px auto",
-              overflow: "visible"
+              overflow: "visible",
+              resize: "both"
             }}
           ></div>
 
