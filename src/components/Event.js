@@ -7,6 +7,7 @@ class Event extends React.Component {
   render() {
     return (
       <div className="backgroundGrid">
+        <Nav />
         <div
           className="eventImage"
           style={{
@@ -71,8 +72,6 @@ class Event extends React.Component {
         <button className="eventButton" onClick="/CheckoutForm">
           Purchase tickets
         </button>
-
-        <Nav />
       </div>
     );
   }

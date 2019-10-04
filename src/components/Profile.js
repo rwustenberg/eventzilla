@@ -7,6 +7,7 @@ class Profile extends React.Component {
   render() {
     return (
       <div className="background-grid">
+        <Nav />
         <div className="user-info">
           <div className="user1">
             <div className="group logo-profile logo3">
@@ -56,7 +57,6 @@ class Profile extends React.Component {
             </div>
           </div>
         </div>
-        <Nav />
       </div>
     );
   }

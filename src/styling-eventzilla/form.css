@@ -15,7 +15,7 @@
   display: grid;
   grid-template-rows: auto 1fr auto;
   justify-content: center;
-  margin: 140px 0;
+  margin: 120px 0;
   overflow: wrap;
 }
 form {
@@ -35,7 +35,9 @@ form {
 }
 .h2 {
   text-align: center;
-  margin: 0.5em 0.25em 0.25em 0.25em;
+  margin: 1.3em 0.25em 0.25em 0.25em;
+
+  font-weight: 600;
 }
 .group2 {
   font-size: 1em;
